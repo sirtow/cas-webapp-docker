@@ -54,6 +54,7 @@ RUN cd / \
 
 COPY thekeystore /etc/cas/
 COPY bin/*.* cas-overlay/bin/
+COPY pom.xml cas-overlay/
 COPY etc/cas/config/*.* /etc/cas/config/*.*
 COPY etc/cas/services/*.* /etc/cas/services/*.*
 
